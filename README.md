@@ -32,8 +32,8 @@ java -jar servidor.jar
 se procede a ejecutar lo mismo en el nodo 2 de la siguiente forma: 
 
 ```bash
- make controlador
-java -jar controlador.jar
+ make colector
+java -jar colector.jar
 ``` 
 donde dice <ip> se tiene que proceder a a poner la direccion ip del nodo 1 (servidor) para poder hacer la conexion. y listo ambas maquinas ya estarán conectadas entre si esperando los ficheros json para su lectura.
                    
